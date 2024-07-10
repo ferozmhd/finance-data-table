@@ -1,0 +1,43 @@
+.negative {
+    color: red;
+    font-weight: bold;
+}
+.positive {
+    color: green;
+    font-weight: bold;
+}
+.category{
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+.add-button {
+    border-radius: 25px;
+    margin-left: 5px;
+    padding: 2px;
+    background-color: black;
+    border: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+td:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+td:nth-child(even) {
+    background-color: #ffffff;
+}
+tr.total-row {
+    background-color: #FFECB3;
+}
+input {
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+}

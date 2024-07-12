@@ -1,12 +1,35 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 0 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.button-container button {
+  background-color: transparent;
+  border: 0.5px solid gray;
+  padding: 5px 10px;
+}
+.button-container button.selected {
+  border: 0.5px solid orangered;
+  color: orangered;
+}
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+.action-buttons button {
+  display: flex;
+  gap: 5px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
